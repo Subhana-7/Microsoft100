@@ -1,0 +1,42 @@
+.icon-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+}
+.icon-item {
+  flex: 1 1 200px; /* Ensure each item takes up at least 200px and is flexible */
+  max-width: 25%; /* Limit to 4 items per row on larger screens */
+  text-align: center;
+  margin: 10px;
+
+}
+.icon-item img {
+  max-width: 50px;
+  height: auto;
+}
+.icon-item a {
+  display: block;
+  margin-top: 10px;
+  color: rgb(0, 103, 184);
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+.card {
+      height: 100%; /* Ensure cards take full height */
+  }
+  .card-img-top {
+      height: 200px; /* Set a fixed height for images */
+      object-fit: cover; /* Ensure images cover the area */
+  }
+  .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .card-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
